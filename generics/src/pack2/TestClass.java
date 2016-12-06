@@ -25,6 +25,10 @@ System.out.println();
 //if we cast generic wrapping a String Class into an Integer type it does not compile
 //if(subOb2 instanceof GenericTypeChechingSubClass<Integer>) System.out.println("subOb2 can be casted into GenericTypeChechingSubClass<Integer>");
 
+System.out.println("Conclusion: We can can cast one instance of a generic class into another only if the 2 are otherwise compatible"+
+"and the the same type argument");
 
+System.out.println("(GenericTypeCheching<Integer>) subOb1 // Possible: Same type, same parameter list");
+System.out.println("(GenericTypeCheching<Integer>) subOb2 // Not Possible: Same type different parameter list");
 	}
 }
