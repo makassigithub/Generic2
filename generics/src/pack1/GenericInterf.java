@@ -5,5 +5,6 @@ interface GenericInterf<T extends Comparable<T>> {
 
 	T getMin( T [] o);
 	T getMax(T [] o );
+	
 }
 
