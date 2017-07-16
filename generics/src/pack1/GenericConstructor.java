@@ -10,7 +10,7 @@ public class GenericConstructor {
 		value = arg.doubleValue();	
 		}
 	
-// this method show the value wrapped in the object
+// this method shows the value wrapped in the object
 	void showWrappedPrimitive(){
 		 System.out.println("the wrapped value is: "+ value);
 	 }
